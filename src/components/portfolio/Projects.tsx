@@ -9,18 +9,24 @@ const projects = [
     description:
       "A modern, responsive personal portfolio showcasing skills, projects, and contact information with dark/light theme support.",
     tags: ["React", "Tailwind CSS", "TypeScript"],
+    code: "https://github.com/lathikareddy/portfolio-website",
+    demo: "https://lathikareddy.dev",
   },
   {
     title: "To-Do App",
     description:
       "A task management application with add, edit, delete, and filter functionality. Features local storage persistence and a clean UI.",
     tags: ["JavaScript", "HTML", "CSS"],
+    code: "https://github.com/lathikareddy/todo-app",
+    demo: "https://lathikareddy.github.io/todo-app",
   },
   {
     title: "Calculator App",
     description:
       "A fully functional calculator with standard arithmetic operations, keyboard support, and a responsive design.",
     tags: ["JavaScript", "CSS Grid", "HTML"],
+    code: "https://github.com/lathikareddy/calculator-app",
+    demo: "https://lathikareddy.github.io/calculator-app",
   },
 ];
 
