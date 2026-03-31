@@ -1,4 +1,4 @@
-import { ArrowDown, Mail } from "lucide-react";
+import { ArrowDown, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Hero() {
