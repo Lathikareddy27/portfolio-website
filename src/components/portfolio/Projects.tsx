@@ -66,12 +66,12 @@ export default function Projects() {
               </div>
               <div className="flex gap-3">
                 <Button variant="outline" size="sm" className="gap-1.5" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href={p.code} target="_blank" rel="noopener noreferrer">
                     <Github className="h-4 w-4" /> View Code
                   </a>
                 </Button>
                 <Button size="sm" className="gap-1.5" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href={p.demo} target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="h-4 w-4" /> Live Demo
                   </a>
                 </Button>
