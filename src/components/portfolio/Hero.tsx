@@ -27,6 +27,11 @@ export default function Hero() {
           <Button size="lg" variant="outline" onClick={() => scrollTo("#contact")} className="gap-2">
             <Mail className="h-4 w-4" /> Contact Me
           </Button>
+          <Button size="lg" variant="secondary" className="gap-2" asChild>
+            <a href="/resume.pdf" download>
+              <Download className="h-4 w-4" /> Download CV
+            </a>
+          </Button>
         </div>
       </div>
     </section>
